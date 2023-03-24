@@ -175,7 +175,18 @@ nav .navlinks li a{
   border-color: aqua;
 }
 
+.mlk_text .social i{
+  color:#e5e5e5;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
 
+
+.mlk_text .social i:hover{
+  color: aqua;
+  transform: rotate(360deg);
+}
 
     /*#endregion*/
 
@@ -183,9 +194,69 @@ nav .navlinks li a{
 
 
 
+
+
+
+
+
+/*#region competence*/
+
+
+.comp_h1{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 80px;
+}
+
+.skill_area{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.skill{
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.skill_title{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.skill_bar{
+  width: 100%;
+  background: rgba(165, 165, 165, 0.5);
+  height: 40px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.skill_fill{
+  background-color: aqua;
+  border-radius: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+/*#endregion*/
+
+
 @media(max-width:930px){
-  nav.togglebtn{
-    display: initial;
+  nav .togglebtn{
+    display:block;
+
   }
 
   .click{
@@ -231,14 +302,24 @@ nav .navlinks li a{
     text-align: center;
   }
 
-  nav .navlinks.open{
+  nav .navlinks .open{
     right: 0;
   }
 
 
 }
 
+@media(max-width:768px){
+  .container{
+    flex-direction: column;
+    padding-top: 2rem;
+  }
 
+  .mlk_text{
+    padding: 40px 0px;
+  }
+
+}
 
 
     /*#region loader*/

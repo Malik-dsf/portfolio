@@ -54,7 +54,7 @@
                         <p>Étudiant en 1ere années de BTS SIO avec option SLAM, développeur depuis 4 ans en Front-end, database, et game dev.
                             Maitrisant les langages suivant : HTML, CSS, PHP, SQL, C# et python.</p>
                         <div class="btn-group">
-                            <a href="#" class="btn active">Télécharger mon CV</a>
+                            <a href="fichier_download/CV_Desenfant_malik.pdf" class="btn active">Télécharger mon CV</a>
                         </div>
 
                         <div class="social">
@@ -71,6 +71,18 @@
 
 
     <script src="main.js"></script>
+
+    <script>
+        /** bouton pour cacher la navbar**/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+    </script>
     
 </body>
 </html>
