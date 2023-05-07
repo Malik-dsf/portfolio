@@ -211,6 +211,11 @@ nav .navlinks li a {
   padding: 30px 0;
 }
   
+.skills h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
 
 .html5 {
     width: 90%;
@@ -361,31 +366,33 @@ nav .navlinks li a {
     100% {
       width: 80%;
     }
-  }
+}
 
 
 .skills ul{
   padding-top: 30px;
+}
 
-  &>li {
+.skill li {
     margin-bottom: 50px;
     background: #dedede;
     height: 6px;
+}
 
-    & em {
+.skill em {
       font-size: 18px;
       position: relative;
       top: -30px;
-    }
+}
 
-    & span {
+.skill span {
       height: inherit;
       background-color: #94c245;
       background: linear-gradient(90deg, #76b82a, #aecd60);
       position: absolute;
-    }
-  }
 }
+
+
 
 
 
