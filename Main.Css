@@ -209,10 +209,10 @@ nav .navlinks li a {
   position: relative;
   float: left;
   padding: 30px 0;
-
+}
   
 
-  .html5 {
+.html5 {
     width: 90%;
     animation: html5 2s ease-out;
   }
@@ -282,13 +282,33 @@ nav .navlinks li a {
     }
   }
 
-  @keyframes jquery {
+  @keyframes CS {
     0% {
       width: 0px;
     }
 
     100% {
       width: 60%;
+    }
+  }
+
+  @keyframes shell {
+    0% {
+      width: 0px;
+    }
+
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes python {
+    0% {
+      width: 0px;
+    }
+
+    100% {
+      width: 80%;
     }
   }
 
@@ -302,15 +322,6 @@ nav .navlinks li a {
     }
   }
 
-  @keyframes magento {
-    0% {
-      width: 0px;
-    }
-
-    100% {
-      width: 60%;
-    }
-  }
 
   @keyframes photoshop {
     0% {
@@ -322,7 +333,7 @@ nav .navlinks li a {
     }
   }
 
-  @keyframes illustrator {
+  @keyframes blender {
     0% {
       width: 0px;
     }
@@ -331,7 +342,27 @@ nav .navlinks li a {
       width: 80%;
     }
   }
-}
+
+  @keyframes unity {
+    0% {
+      width: 0px;
+    }
+
+    100% {
+      width: 80%;
+    }
+  }
+
+  @keyframes vegas {
+    0% {
+      width: 0px;
+    }
+
+    100% {
+      width: 80%;
+    }
+  }
+
 
 .skills ul{
   padding-top: 30px;
