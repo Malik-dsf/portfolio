@@ -101,9 +101,6 @@ nav .navlinks li a {
 
 
 
-
-
-
 /*#region header*/
 
 .container {
@@ -188,13 +185,6 @@ nav .navlinks li a {
 }
 
 /*#endregion*/
-
-
-
-
-
-
-
 
 
 
@@ -560,6 +550,24 @@ nav .navlinks li a {
   height: 0%;
   width: 0%;
   pointer-events: none;
+}
+
+/*#endregion*/
+
+
+
+/*#region veilles*/
+
+.block_p{
+  margin: 5%;
+}
+
+
+.t{
+  text-align: left;
+  size: 16px;
+  font-family: poppins, sans-serif;
+  
 }
 
 /*#endregion*/
